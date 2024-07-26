@@ -1,0 +1,53 @@
+body {
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    color: burlywood;
+}
+
+nav ul {
+    padding: 10px;
+    background-color: #325399;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+
+main {
+    padding: 20px;
+}
+
+.boat {
+    background-color: #ececec;
+    border: 1px solid #6e6969;
+}
+
+.boat h2 {
+    color: #e0dd17;
+    border: 1px solid #c3daf5;
+    background-color: #325399;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+article {
+    background-color: #72bfc2;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+}
+

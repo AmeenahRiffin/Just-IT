@@ -1,0 +1,11 @@
+/* CSS Position code below: */
+ 
+/* Static = Default - Applied to all elements */
+ 
+/* Relative = Allows you to offset an element relative to its natural starting position */
+ 
+/* Absolute = Takes the element out of the standard document flow, allows us to position absolutely. Looks for a non-static parent element, if one can't be found the element is positioned in relation to the viewport (window) */
+ 
+/* Fixed - Allows us to fix the element to a certain postion in the window */
+ 
+/* Sticky - Positions the element in its default position, however allows us to stick the element to a postion when scrolled past */

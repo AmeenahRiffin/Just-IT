@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display</title>
+</head>
+<body>
+    <h1>Block Element</h1>
+
+    <p>Another Block Element</p>
+
+    <p><b>Inline Elements made as a block element:</b></p>
+
+    <img class="make-block" src="https://cdn.pixabay.com/photo/2019/06/09/12/56/cat-4262034_1280.jpg" alt="">
+    <!-- A deer image -->
+    <img class="make-block" src="https://media.istockphoto.com/id/1481594230/photo/looking-left-and-right.jpg?s=2048x2048&w=is&k=20&c=QruHeQ2cMmUipCCeykPOz9kL0Vb-SlTW8lcTDGIFRo4=" alt="A deer in the forest">
+
+    <p><b>Block elements made as an inline element:</b></p>
+
+    <p class="make-inline">A block element made inline</p>
+    <p class="make-inline">This is a second line</p>
+
+    <br/><br/>
+
+    <button>Click Me</button>
+
+
+    <p>A rounded border element:</p>
+    <img class="avatar" src="https://img.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg" alt="Avatar">
+
+    <p><b>A hidden element:</b></p>
+
+    <p class="hidden">Hidden Element</p>
+    <style>
+        img {
+            width: 10%;
+            height: 10%;
+            background-color: brown;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .make-inline {
+            display: inline;
+            width: 100px;
+        }
+
+        .make-block {
+            display: block;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        button {
+            display: block;
+            background-color: blueviolet;
+            padding: 30px;
+            margin: 10px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            color: white;
+
+        }
+
+        .avatar {
+            display: block;
+            border-radius: 120px;
+        }
+    </style>
+</body>
+</html>

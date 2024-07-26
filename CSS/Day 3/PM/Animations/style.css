@@ -1,0 +1,40 @@
+@keyframes animatedtest {
+    0%{
+        background-color: purple;
+    }
+    10% {
+        background-color: yellow;
+    }
+    20% {
+        background-color: green;
+    }
+}
+
+@keyframes ballrolling {
+    0% {
+        transform: translateX(0) translateY(-50%) rotate(0deg);
+      }
+      100% {
+        transform: translateX(100%) translateY(-50%) rotate(360deg);
+      }
+    }
+
+
+.animationtest {
+    color: red;
+    animation-name: animatedtest;
+    animation-duration: 10s;
+}
+
+.animationtest2 {
+    width: 50px;
+    height: 50px;
+    background-color: #ff6347; /* Tomato color */
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    animation: ballrolling 4s infinite linear;
+    
+}
